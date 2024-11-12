@@ -12,11 +12,10 @@ Benchmark GPU dense Computing -> ~ 98% GPU time
 
 ## Environment & Running
 ### On Jean-Zay
-Please use the `pytorch-gpu/py3/2.5.0` module
-Run benchmark with command:
-`sbatch slurm/bench_h100_cap.slurm`
-or
-`sbatch slurm/bench_h100_nocap.slurm`
+* Please use the `pytorch-gpu/py3/2.5.0` module
+* Run benchmark with command:
+  * `sbatch slurm/bench_h100_cap.slurm`
+  * `sbatch slurm/bench_h100_nocap.slurm`
 
 ### Other system
 Please see `requierements.txt` to have module equivalence
