@@ -1,4 +1,4 @@
-# Benchmark FSDP DLOJ-JZ
+# Benchmark FSDP DLO-JZ
 Benchmark GPU dense Computing -> ~ 98% GPU time
 
 * Llama3.2-3B
@@ -12,15 +12,15 @@ Benchmark GPU dense Computing -> ~ 98% GPU time
 
 ## Environment & Running
 ### On Jean-Zay
-* Please use the `pytorch-gpu/py3/2.5.0` module
 * Run benchmark with command:
   * `sbatch slurm/bench_h100_cap.slurm`
   * `sbatch slurm/bench_h100_nocap.slurm`
+* using `pytorch-gpu/py3/2.5.0` module
 
 ### Other system
 (Please see `requierements.txt` to have module equivalence)
 
-But used libraries list should be:
+But imported libraries list should be:
 * torch==2.5.0
 * transformers==4.46.0
 * datasets==3.0.2
