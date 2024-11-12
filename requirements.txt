@@ -19,20 +19,17 @@ alembic==1.13.3
 annotated-types==0.7.0
 antlr4-python3-runtime==4.9.3
 anyio==4.6.2.post1
-apex @ file:///lustre/fshomisc/sup/src/pub/anaconda-py3/h100/2024.06/pytorch-gpu-2.5.0%2Bpy3.12.7%2Bcuda-12.4/apex
 appdirs==1.4.4
 argon2-cffi==23.1.0
 argon2-cffi-bindings==21.2.0
 arrow==1.3.0
 asgiref==3.8.1
-asn1crypto @ file:///work/perseverance-python-buildout/croot/asn1crypto_1698863976601/work
 assertpy==1.1
 astra-toolbox==2.2.0
 astroid==3.3.5
 astropy==6.1.4
 astropy-iers-data==0.2024.10.21.0.33.21
 asttokens==2.4.1
-astunparse @ file:///home/conda/feedstock_root/build_artifacts/astunparse_1728923142236/work
 async-lru==2.0.4
 asyncssh==2.17.0
 atomicwrites==1.4.1
@@ -52,23 +49,18 @@ beautifulsoup4==4.12.3
 binaryornot==0.4.4
 biopython==1.84
 bitarray==3.0.0
-bitsandbytes @ file:///lustre/fshomisc/sup/src/pub/anaconda-py3/h100/2024.06/pytorch-gpu-2.5.0%2Bpy3.12.7%2Bcuda-12.4/bitsandbytes
 bkcharts==0.2
 black==24.10.0
 bleach==6.1.0
-blinker @ file:///work/perseverance-python-buildout/croot/blinker_1698846408677/work
 blis==0.7.11
 bokeh==3.6.0
 boto==2.49.0
-boto3 @ file:///home/conda/feedstock_root/build_artifacts/boto3_1729758492823/work
-botocore @ file:///home/conda/feedstock_root/build_artifacts/botocore_1729755449317/work
 Bottleneck==1.4.2
 braceexpand==0.1.7
 branca==0.8.0
 build==1.2.2.post1
 cachetools==5.5.0
 catalogue==2.0.10
-certifi @ file:///home/conda/feedstock_root/build_artifacts/certifi_1725278078093/work/certifi
 cffi==1.17.1
 chardet==5.2.0
 charset-normalizer==3.4.0
@@ -80,7 +72,6 @@ click-plugins==1.1.1
 cligj==0.7.2
 cloudpathlib==0.20.0
 cloudpickle==3.1.0
-cmake==3.30.5
 colorama==0.4.6
 coloredlogs==15.0.1
 colorful==0.5.6
@@ -99,9 +90,7 @@ cycler==0.12.1
 cymem==2.0.8
 Cython==3.0.11
 cytoolz==1.0.0
-dask @ file:///croot/dask-core_1725461349163/work
 dask-expr==1.1.13
-dask-jobqueue @ file:///work/perseverance-python-buildout/croot/dask-jobqueue_1701756734059/work
 databricks-sdk==0.36.0
 dataclasses==0.6
 dataclasses-json==0.6.7
@@ -119,7 +108,6 @@ diffusers==0.31.0
 dill==0.3.8
 distarray==0.6.0
 distlib==0.3.9
-distributed @ file:///croot/distributed_1725523003979/work
 dm-tree==0.1.8
 docker==7.1.0
 docker-pycreds==0.4.0
@@ -147,7 +135,6 @@ eval_type_backport==0.2.0
 evaluate==0.4.3
 executing==2.1.0
 expecttest==0.2.1
-fabric @ file:///home/conda/feedstock_root/build_artifacts/fabric_1693457728307/work
 fastapi==0.115.3
 fastargs==1.2.0
 fastjsonschema==2.20.0
@@ -157,13 +144,11 @@ fastrlock==0.8.2
 ffcv==1.0.2
 ffmpy==0.4.0
 filelock==3.16.1
-filetype @ file:///home/conda/feedstock_root/build_artifacts/filetype_1667445778563/work
 findiff==0.10.2
 fiona==1.10.1
 flake8==7.1.1
 flash_attn==2.6.3
 flashattn-hopper==3.0.0b1
-Flask @ file:///croot/flask_1716545870149/work
 flatbuffers==24.3.25
 folium==0.18.0
 fonttools==4.54.1
@@ -174,13 +159,10 @@ fs==2.4.16
 fs-s3fs==1.1.1
 fsspec==2024.9.0
 future==1.0.0
-fvcore @ git+https://github.com/facebookresearch/fvcore@d051804c97dfd7c8f349996fefd8644fe2955bc2
-gast @ file:///tmp/build/80754af9/gast_1637837472536/work
 geographiclib==2.0
 geopandas==0.14.4
 gitdb==4.0.11
 GitPython==3.1.43
-glob2 @ file:///home/linux1/recipes/ci/glob2_1610991677669/work
 global-land-mask==1.0.0
 gmpy2==2.2.1
 google-api-core==2.21.0
@@ -198,7 +180,6 @@ gunicorn==23.0.0
 guppy3==3.1.4.post1
 h11==0.14.0
 h5py==3.12.1
-HeapDict @ file:///Users/ktietz/demo/mc3/conda-bld/heapdict_1630598515714/work
 hjson==3.1.0
 horovod==0.28.1
 httpcore==1.0.6
@@ -227,7 +208,6 @@ inflect==7.3.1
 inflection==0.5.1
 iniconfig==2.0.0
 intervaltree==3.1.0
-invoke @ file:///home/conda/feedstock_root/build_artifacts/invoke_1689210573190/work
 iopath==0.1.10
 ipykernel==6.29.5
 ipyparallel==8.8.0
@@ -236,17 +216,14 @@ ipython-genutils==0.2.0
 ipywidgets==8.1.5
 isoduration==20.11.0
 isort==5.13.2
-itsdangerous @ file:///croot/itsdangerous_1716533337253/work
 jaraco.classes==3.4.0
 jaraco.collections==5.1.0
 jaraco.context==6.0.1
 jaraco.functools==4.1.0
 jaraco.text==3.12.1
-jedi @ file:///croot/jedi_1721058342488/work
 jeepney==0.8.0
 jellyfish==1.1.0
 Jinja2==3.1.4
-jmespath @ file:///home/conda/feedstock_root/build_artifacts/jmespath_1655568249366/work
 joblib==1.4.2
 json5==0.9.25
 jsonpatch==1.33
@@ -290,8 +267,6 @@ linkify-it-py==2.0.3
 lintrunner==0.12.5
 lion-pytorch==0.2.2
 llvmlite==0.43.0
-lmdb @ file:///work/perseverance-python-buildout/croot/python-lmdb_1698865572354/work
-locket @ file:///work/perseverance-python-buildout/croot/locket_1698847555568/work
 lpips==0.1.4
 lxml==5.3.0
 Mako==1.3.6
@@ -307,7 +282,6 @@ matplotlib-inline==0.1.7
 mccabe==0.7.0
 mdit-py-plugins==0.4.2
 mdurl==0.1.2
-megatron-lm @ git+https://github.com/huggingface/Megatron-LM.git@100b522bb8044d98413398f9e71563af15b83325
 memray==1.14.0
 mistune==3.0.2
 mizani==0.11.4
@@ -317,17 +291,13 @@ mlflow-skinny==2.17.0
 mmcv==2.2.0
 mmengine==0.10.5
 mmh3==5.0.1
-mock @ file:///tmp/build/80754af9/mock_1607622725907/work
-monai @ git+https://github.com/Project-MONAI/MONAI@59a7211070538586369afd4a01eca0a7fe2e742e
 monotonic==1.6
 more-itertools==10.5.0
 moses==0.10.0
 mosestokenizer==1.2.1
 mpi4py==4.0.1
 mpmath==1.3.0
-msgpack @ file:///work/perseverance-python-buildout/croot/msgpack-python_1698846122235/work
 multidict==6.1.0
-multipledispatch @ file:///work/perseverance-python-buildout/croot/multipledispatch_1698846147141/work
 multiprocess==0.70.16
 munch==4.0.0
 murmurhash==1.0.10
@@ -336,9 +306,7 @@ natsort==8.4.0
 nbclient==0.10.0
 nbconvert==7.16.4
 nbformat==5.10.4
-nemo-toolkit @ file:///lustre/fshomisc/sup/src/pub/anaconda-py3/h100/2024.06/pytorch-gpu-2.5.0%2Bpy3.12.7%2Bcuda-12.4/NeMo
 nest-asyncio==1.6.0
-networkx @ file:///croot/networkx_1717597493534/work
 nh3==0.2.18
 nibabel==5.3.2
 ninja==1.11.1.1
@@ -355,8 +323,6 @@ nvidia-nsys-cli==2021.3.2.12
 nvidia-nvimgcodec-cu12==0.3.0.5
 nvidia-pyprof==3.10.0
 oauthlib==3.2.2
-odl @ git+https://github.com/odlgroup/odl.git@5e0c11072b8d6dbfa70b2ca29f471925172906d7
-olefile @ file:///home/conda/feedstock_root/build_artifacts/olefile_1701735466804/work
 omegaconf==2.3.0
 onnx==1.17.0
 onnxruntime==1.19.2
@@ -387,9 +353,7 @@ pafit==2.0.8
 pandas==2.2.3
 pandocfilters==1.5.1
 parameterized==0.9.0
-paramiko @ file:///opt/conda/conda-bld/paramiko_1640109032755/work
 parso==0.8.4
-partd @ file:///work/perseverance-python-buildout/croot/partd_1698863295708/work
 pathlib2==2.3.7.post1
 pathspec==0.12.1
 patsy==0.5.6
@@ -404,7 +368,6 @@ plotbin==3.1.7
 plotly==5.24.1
 plotnine==0.13.6
 pluggy==1.5.0
-ply @ file:///work/perseverance-python-buildout/croot/ply_1698846188635/work
 plyfile==1.1
 pooch==1.8.2
 portalocker==2.10.1
@@ -425,14 +388,10 @@ py-spy==0.3.14
 pyarrow==17.0.0
 pyasn1==0.6.1
 pyasn1_modules==0.4.1
-pybind11 @ file:///home/conda/feedstock_root/build_artifacts/pybind11-split_1729256490124/work
-pybind11_global @ file:///home/conda/feedstock_root/build_artifacts/pybind11-split_1729256490124/work
 pycairo==1.27.0
 pycodestyle==2.12.1
 pycollada==0.8
-pyconll @ file:///usr/share/miniconda/conda-bld/pyconll_1687318241945/work
 pycparser==2.22
-pycurl @ file:///croot/pycurl_1725370229412/work
 pydantic==2.9.2
 pydantic_core==2.23.4
 pydocstyle==6.3.0
@@ -443,7 +402,6 @@ pyflakes==3.2.0
 pygeoif==0.7
 PyGithub==2.4.0
 Pygments==2.18.0
-pygraphviz @ file:///work/perseverance-python-buildout/croot/pygraphviz_1712355643523/work
 PyJWT==2.9.0
 pylint==3.3.1
 pylint-venv==3.0.3
@@ -455,7 +413,6 @@ pyodbc==5.2.0
 pyogrio==0.10.0
 pyparsing==3.2.0
 PyPika==0.48.9
-pyproj @ file:///croot/pyproj_1704901265679/work
 pyproject_hooks==1.2.0
 PyQt5==5.15.11
 PyQt5-Qt5==5.15.15
@@ -480,7 +437,6 @@ pytorch-ignite==0.5.1
 pytorch-lightning==2.4.0
 pytorch-msssim==1.0.0
 pytorch-pfn-extras==0.7.7
-pytorch3d @ git+https://github.com/facebookresearch/pytorch3d.git@89653419d0973396f3eff1a381ba09a07fffc2ed
 pytorchvideo==0.1.5
 PyTurboJPEG==1.7.7
 pytz==2024.2
@@ -500,7 +456,6 @@ rasterio==1.4.1
 ray==2.38.0
 readme_renderer==44.0
 referencing==0.35.1
-regex @ file:///croot/regex_1726669635272/work
 requests==2.32.3
 requests-oauthlib==2.0.0
 requests-toolbelt==1.0.0
@@ -517,8 +472,6 @@ ruamel.yaml==0.18.6
 ruamel.yaml.clib==0.2.12
 ruff==0.7.0
 runstats==2.0.0
-s3transfer @ file:///home/conda/feedstock_root/build_artifacts/s3transfer_1728459792363/work
-sacremoses @ file:///home/conda/feedstock_root/build_artifacts/sacremoses_1651557636210/work
 safetensors==0.4.5
 scalene==1.5.45
 scikit-image==0.24.0
@@ -543,14 +496,12 @@ shtab==1.7.1
 simplegeneric==0.8.1
 SimpleITK==2.4.0
 simplejson==3.19.3
-singledispatch @ file:///home/conda/feedstock_root/build_artifacts/singledispatch_1614388326733/work
 six==1.16.0
 slicer==0.0.8
 smart-open==7.0.5
 smmap==5.0.1
 sniffio==1.3.1
 snowballstemmer==2.2.0
-softadapt @ git+https://github.com/dr-aheydari/SoftAdapt.git@66e7bd6e300cad9b41a9edfd81c0d2b265a1504e
 sortedcontainers==2.4.0
 soundfile==0.12.1
 soupsieve==2.6
@@ -568,7 +519,6 @@ sphinxcontrib-htmlhelp==2.1.0
 sphinxcontrib-jsmath==1.0.1
 sphinxcontrib-qthelp==2.0.0
 sphinxcontrib-serializinghtml==2.0.0
-sphinxcontrib-websupport @ file:///tmp/build/80754af9/sphinxcontrib-websupport_1597081412696/work
 spyder==6.0.1
 spyder-kernels==3.0.0
 SQLAlchemy==2.0.36
@@ -583,12 +533,10 @@ svg.path==6.3
 swifter==1.4.0
 sympy==1.13.1
 tabulate==0.9.0
-tblib @ file:///Users/ktietz/demo/mc3/conda-bld/tblib_1629402031467/work
 tenacity==9.0.0
 tensorboard==2.18.0
 tensorboard-data-server==0.7.2
 tensorboardX==2.6.2.2
-termcolor @ file:///home/conda/feedstock_root/build_artifacts/termcolor_1728288976871/work
 terminado==0.18.1
 terminaltables==3.1.10
 text-unidecode==1.3
@@ -601,14 +549,11 @@ tifffile==2024.9.20
 tiktoken==0.8.0
 timm==0.9.7
 tinycss2==1.3.0
-tinycudann @ git+https://github.com/NVlabs/tiny-cuda-nn/@c91138bcd4c6877c8d5e60e483c0581aafc70cce#subdirectory=bindings/torch
 tokenizers==0.20.1
 tomli==2.0.2
 tomli_w==1.1.0
 tomlkit==0.12.0
 toolwrapper==2.1.0
-toolz @ file:///work/perseverance-python-buildout/croot/toolz_1698846367152/work
-torch @ file:///lustre/fshomisc/sup/src/pub/anaconda-py3/h100/2024.06/pytorch-gpu-2.5.0%2Bpy3.12.7%2Bcuda-12.4/pytorch-2.5.0/dist/torch-2.5.0-cp312-cp312-linux_x86_64.whl#sha256=f9dab295e2c52a9de2c01783410008a30887326666f1aec951269d672cd748c0
 torch-ema==0.3
 torch-geometric==2.6.1
 torch-tb-profiler==0.4.3
@@ -626,7 +571,6 @@ torchviz==0.0.2
 tornado==6.4.1
 tqdm==4.66.5
 traitlets==5.14.3
-transformer_engine @ git+https://github.com/NVIDIA/TransformerEngine.git@c27ee60ec746210bcea4ec33958dbbff06706506
 transformers==4.46.0
 trimesh==4.5.1
 triton==3.0.0
@@ -646,7 +590,6 @@ ultralytics==8.3.21
 ultralytics-thop==2.0.9
 umap-learn==0.5.6
 unicodecsv==0.14.1
-Unidecode @ file:///croot/unidecode_1724790039185/work
 uri-template==1.3.0
 urllib3==2.2.3
 utm==0.7.0
@@ -678,13 +621,10 @@ xeus-python==0.15.12
 xeus-python-shell==0.5.0
 xformers==0.0.29+68b7fd1.d20241023
 xgboost==2.1.2
-XlsxWriter @ file:///work/perseverance-python-buildout/croot/xlsxwriter_1698876241740/work
 xlwt==1.3.0
-xmltodict @ file:///home/conda/feedstock_root/build_artifacts/xmltodict_1729070904456/work
 xxhash==3.5.0
 xyzservices==2024.9.0
 yacs==0.1.8
 yapf==0.40.2
 yarl==1.16.0
-zict @ file:///work/perseverance-python-buildout/croot/zict_1698876364831/work
 zipp==3.20.2
