@@ -24,7 +24,9 @@ from transformers.models.llama.modeling_llama import LlamaDecoderLayer
 from dlojz_chrono import Chronometer
 
 #### TO CONFIGURE according to the system
-
+SCRATCH = Path(os.environ["SCRATCH"])
+model_path = SCRATCH / "Llama-3.2-3B-Instruct"
+dataset_path = SCRATCH / "roleplay"
 
 ####
 
@@ -79,12 +81,6 @@ dist.init_process_group(
     rank=idr_torch.rank,
     world_size=idr_torch.world_size,
 )
-
-DSDIR = Path(os.environ["DSDIR"])
-NEW_DSDIR = Path("/gpfsdsdir") / "dataset"
-SCRATCH = Path(os.environ["SCRATCH"])
-model_path = SCRATCH / "Llama-3.2-3B-Instruct"
-dataset_path = SCRATCH / "roleplay"
 
 torch.cuda.set_device(idr_torch.local_rank)
 device = torch.device("cuda" if torch.cuda.is_available() else "cpu")
