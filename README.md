@@ -18,6 +18,12 @@ Benchmark GPU dense Computing -> ~ 98% GPU time
   * `sbatch slurm/bench_h100_nocap.slurm`
 
 ### Other system
-Please see `requierements.txt` to have module equivalence
+(Please see `requierements.txt` to have module equivalence)
+But used libraries list should be:
+* torch==2.5.0
+* transformers==4.46.0
+* datasets==3.0.2
+* idr_torch==2.2.0
+* torchmetrics==1.5.1
 
 
